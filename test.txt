@@ -1,7 +1,7 @@
 
 
-miki= hee
-vlada= lele
+miki=hee
+vlada=lele
 
 echo $miki
 echo $vlada
