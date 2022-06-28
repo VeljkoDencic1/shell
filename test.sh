@@ -1,6 +1,11 @@
 #!/bin/bash
 
 
+comm -13 <( grep -o -E '\w+=' ./test.txt| sed 's/.$//') <(grep -o -E '\$\w+' ./test.txt | sed 's/^.//')
+
+
+
+
 # svaki=($(grep -o '[[:alnum:]]\+' ./test.txt))
 #  for x in "${svaki[@]}"; do
 #    USE=($(grep -E "=" ./test.txt))
