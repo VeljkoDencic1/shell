@@ -1,0 +1,8 @@
+
+
+miki= hee
+vlada= lele
+
+echo $miki
+echo $vlada
+echo $grid
